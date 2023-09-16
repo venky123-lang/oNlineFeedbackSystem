@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+    background: #ecf0f3;
+}
+
+/* navigation bar begins */
+.navbar{
+    background-color: aqua;
+}
+.logo{
+    size: 50%;
+}
+.navbar .navbar-brand {
+  font-size: 20px;
+}
+.navbar-barnd-span{
+    font-size: 15px;
+}
+.navbar .nav-item {
+  padding: 10px 10px;
+}
+.nav-link-web{
+    font-size:20px ;
+    color: rgb(0, 17, 255);
+    margin-left: 10px;
+    background-color: #e159ff;
+    padding: 6px;
+    border-radius: 10px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  color: rgb(0, 17, 255);
+}
+.nav-link:hover{
+    color: #ce15ac;
+    border: #e159ff solid 1px;
+    background:#94d2d9;
+    border-radius: 10px;
+  }
+.fa-bars {
+  color: #007bff;
+  font-size: 20px;
+}
+
+/* navigation bar ends */
+
+.form-welcome{
+    position: relative;
+    width: 1000px;
+    height: 1200px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;;
+}
+.form-heading{
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.float-right{
+    float: right;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+td,th{
+    border: 1px solid black;
+   text-align: center;
+}
+.vertical-text{
+  writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+}
+.submit-btn{
+  float: right;
+  border-radius: 10px;
+  background-color: rgb(8, 255, 173);
+  width: 100px;
+}
+.submit-btn:hover{
+  color: rgb(251, 255, 251);
+  background-color: green;
+  border: 1px solid #fdfcfc;
+  
+}
+.submit-btn-back{
+  float: left;
+  border-radius: 10px;
+  background-color: rgb(255, 8, 66);
+  width: 100px;
+}
+.submit-btn-back:hover{
+  color: rgb(251, 255, 251);
+  background-color: rgb(253, 5, 5);
+  border: 1px solid #fdfcfc;
+  
+}
+.header-div{
+  width: 100%;
+ 
+}
+.college-web{
+  float: right;
+  background-color: rgb(242, 0, 255);
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 12px;
+}
+.college-web:hover{
+  background-color: #e89df9;
+  color: aliceblue;
+  border: 1px solid #fdfcfc;
+}
+footer{
+  background-color: grey;
+  height: 40px;
+  text-align: center;
+}
