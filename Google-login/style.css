@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+/*Marque Animation*/
+marquee{
+  z-index: 1;
+}
+
+.title-word {
+    animation: color-animation 1s linear infinite;
+    border: 1px solid black;
+    border-radius: 1000px 200px 200px 1000px;
+  }
+  
+  .title-word-1 {
+    --color-1: #f70606;
+    --color-2: #f3ef08;
+    --color-3: #00ff0d;
+  }
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /*End of Marque Animation*/
+
+  .feed-btn-a{
+    /* margin-left: 100px; */
+    padding: 5px;
+     border-radius: 10px;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 14px 14px 20px #b4b3b3, -14px -14px 20px rgb(178, 175, 175);
+   }
+   .feed-btn-a:hover{
+    background-color: #cbced1;
+    border: 1px solid blue;
+   }
+body {
+    background: #ecf0f3;
+}
+.navbar{
+    background-color: aqua;
+}
+.logo{
+    size: 50%;
+}
+.navbar .navbar-brand {
+  font-size: 20px;
+}
+.navbar-barnd-span{
+    font-size: 15px;
+}
+.navbar .nav-item {
+  padding: 10px 10px;
+}
+.nav-link-web{
+    font-size:20px ;
+    color: rgb(0, 17, 255);
+    margin-left: 10px;
+    background-color: #e159ff;
+    padding: 6px;
+    border-radius: 10px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  color: rgb(0, 17, 255);
+}
+.nav-link:hover{
+    color: #ce15ac;
+    border: #e159ff solid 1px;
+    background:#94d2d9;
+    border-radius: 10px;
+  }
+.fa-bars {
+  color: #007bff;
+  font-size: 20px;
+}
+.form-welcome{
+    position: relative;
+    width: 350px;
+    /* height: 500px; */
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.brand-logo {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: -90px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+table{
+  margin-top: -50px;
+}
+.feed-btn{
+ /* margin-left: 100px; */
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgb(22, 247, 120);
+}
+.feed-btn:hover{
+  color: white;
+  background-color: green;
+}
+footer{
+  background-color: grey;
+  text-align: center;
+  width: 100%;
+}
+.header-div{
+    width: 100%;
+    background-color: aqua;
+}
+.college-web{
+    float: right;
+    background-color: rgb(242, 0, 255);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.college-web:hover{
+  background-color: rgb(239, 99, 239);
+  color: azure;
+  border: 3px solid black;
+}
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
